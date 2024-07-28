@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +33,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# Vogue-E-Commerce-Website
+Vogue is a cutting-edge online shopping platform featuring fast performance, time updates, responsive design, and robust security. I designed the frontend, engineered backend functionalities, integrated MongoDB, and ensured dynamic content and security. Technologies: Next.js, MongoDB, Firebase, Strapi.
+>>>>>>> ca9b063c7bed15d47672b7392a68e781a2599a12
