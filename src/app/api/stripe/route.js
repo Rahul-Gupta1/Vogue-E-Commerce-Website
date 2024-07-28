@@ -8,7 +8,7 @@ const stripe = require("stripe")(
 export const dynamic = "force-dynamic";
 
 export async function POST(req) {
-  try {
+  try { 
     const isAuthUser = await AuthUser(req);
     if (isAuthUser) {
       const res = await req.json();
