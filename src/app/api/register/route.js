@@ -17,7 +17,7 @@ export async function POST(req) {
   await connectToDB();
 
   const { name, email, password, role } = await req.json();
-  //validate the schema
+  //validating the schema
 
   const { error } = schema.validate({ name, email, password, role });
 
@@ -30,7 +30,8 @@ export async function POST(req) {
   }
 
   try {
-    //check if the user is exists or not
+
+    //checking if the user is exists or not
 
     const isUserAlreadyExists = await User.findOne({ email });
 
